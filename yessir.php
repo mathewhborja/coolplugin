@@ -8,17 +8,17 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              adasdasd.com
+ * @link              mathewborja.com
  * @since             2.0.0
  * @package           Yessir
  *
  * @wordpress-plugin
- * Plugin Name:       cool plugin
- * Plugin URI:        qasdasd.com
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.0.0
- * Author:            mathew
- * Author URI:        adasdasd.com
+ * Plugin Name:       Test Plugin
+ * Plugin URI:        mathewborja.com
+ * Description:       This is a test plugin by Mathew Borja.
+ * Version:           2.0.0
+ * Author:            Mathew Borja
+ * Author URI:        mathewborja.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       yessir
