@@ -4,7 +4,7 @@
  * The admin-specific functionality of the plugin.
  *
  * @link       adasdasd.com
- * @since      1.0.0
+ * @since      2.0.0
  *
  * @package    Yessir
  * @subpackage Yessir/admin
@@ -100,4 +100,10 @@ class Yessir_Admin {
 
 	}
 
+}
+
+add_action( 'admin_menu', 'register_my_custom_menu_page' );
+
+function register_my_custom_menu_page(){
+    add_menu_page( 'my plugin', 'plugin settings', 'manage_options', 'my-plugin-settings', 'my_plugin_custom_function', plugins_url( 'myplugin/images/icon.png' ), 66 );
 }
