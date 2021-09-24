@@ -105,5 +105,5 @@ class Yessir_Admin {
 add_action( 'admin_menu', 'register_my_custom_menu_page' );
 
 function register_my_custom_menu_page(){
-    add_menu_page( 'my plugin', 'plugin settings', 'manage_options', 'my-plugin-settings', 'my_plugin_custom_function', plugins_url( 'myplugin/images/icon.png' ), 66 );
+    add_menu_page( 'my plugin', 'Test Plugin', 'manage_options', 'test-plugin-admin', 'my_plugin_custom_function', plugins_url( 'myplugin/images/icon.png' ), 66 );
 }
